@@ -1,56 +1,154 @@
-.title {
-    color: #02ccba;
- 
-}
 body {
     margin: 0;
-    font-family: "Lucida Grande";
-  }
-  
-  a {
+    font-family: "sans-serif";
+}
+
+a {
     text-decoration: none;
-  }
-  
-  .container {
+}
+
+.container {
     width: 1170px;
-    margin: 0 auto;
+    padding: 0 15px;
+    margin-left: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    color: #291b00;
+    background-image: url("C:\Users\Jurinati Sri R\Downloads\Telegram Desktop\logo_tema lebaran.jpg");
+    background-size: cover;
+    text-align: left;
+}
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    
+}
+.top-wrapper p {
+    opacity: 0.7px;
+    margin-bottom: 3px;
+}
+.btn {
+    padding: 12px 24px;
+    color:white;
+    display: inline-block;
+    background-color: #291b00;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+.btn-wrapper {
+    margin: 20px 0;
   }
-  header {
-    height: 80px;
+.btn:hover {
+    opacity: 2;
+}
+.fa {
+    margin-right: 5px;
+}
+li { 
+    list-style: none;
+    float:left;
+    padding: 33px 20px;
+}
+header {
+    height: 65px;
     width: 100%;
-    background-color: #2f3542;
-    /* Ubah position ke fixed, dan top ke 0 */
+    background-color:rgba(105, 95, 68, 0.5);
     position: fixed;
     top: 0;
-    
-    /* Ubah z-index ke 10 */
     z-index: 10;
     
   }
+   .header-logo {
+     font-size: 30px;
+     float:left;
+     padding: 20px 40px;
+   }
   
-  .logo {
-    width: 70px;
-    margin-top: 5px;
+   
+  
+.food-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+  .section-title {
+    border-bottom: 2px solid #dee7ec;
   }
   
-  .header-left {
+  .heading {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .food {
     float: left;
+
+
   }
   
-  .header-right {
-    float: right;
-    background-color:rgba(255, 255, 128, .5);
-    transition: all 0.5s;
+  .food-icon {
+    position: relative;
+    margin-right: 40px;
+
   }
   
-  .header-right:hover {
-    background-color:rgba(255, 255, 128, .5);
+  .food-icon p {
+    position: absolute;
+    bottom: 5px;
+    background-color:rgb(197, 184, 6);
+    width:100%;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+
   }
   
-  .header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
+  .txt-contents {
+    width: 800;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #0c2461;
   }
   
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #68c98e;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer {           
+    text-align: center;
+    color:white;
+    background: #946302; 
+    width: 100%;
+    padding: 2px;
+  }
