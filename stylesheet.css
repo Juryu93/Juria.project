@@ -16,7 +16,6 @@ a {
 .top-wrapper {
     padding: 180px 0 100px 0;
     color: #291b00;
-    background-image: url("C:\Users\Jurinati Sri R\Downloads\Telegram Desktop\logo_tema lebaran.jpg");
     background-size: cover;
     text-align: left;
 }
@@ -53,10 +52,10 @@ li {
     float:left;
     padding: 33px 20px;
 }
-header {
+.header {
     height: 65px;
     width: 100%;
-    background-color:rgba(105, 95, 68, 0.5);
+    background-color: #F79F1F;
     position: fixed;
     top: 0;
     z-index: 10;
@@ -66,10 +65,12 @@ header {
      font-size: 30px;
      float:left;
      padding: 20px 40px;
+     color: #1e272e;
    }
-  
+  .header-list{
+    float:left;
    
-  
+  }
 .food-wrapper {
     height: 500px;
     padding-bottom: 80px;
