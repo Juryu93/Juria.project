@@ -1,9 +1,33 @@
 body {
-    margin: 0;
-    font-family: "sans-serif";
-}
-
-a {
+    font-family: "Avenir Next";
+  }
+  
+  li {
+    list-style: none;
+    float: left;
+    /* Ubahlah padding atas & bawah ke 33px, dan padding kiri & kanan ke 20px */
+    padding: 33px 20px;
+  }
+  
+  .header {
+    background-color: #82589F;
+    color: #fff;
+    height: 90px;
+    width: 100%;
+    background-image: url(logo_temalebaran.jpg);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
+    padding: 20px 40px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  a {
     text-decoration: none;
 }
 
@@ -16,7 +40,8 @@ a {
 .top-wrapper {
     padding: 180px 0 100px 0;
     color: #291b00;
-    background-size: cover;
+    background-image: url(logo_temalebaran.jpg);  
+    background: cover;
     text-align: left;
 }
 .top-wrapper h1 {
@@ -47,38 +72,11 @@ a {
 .fa {
     margin-right: 5px;
 }
-li { 
-    list-style: none;
-    float:left;
-    padding: 33px 20px;
-}
-.header {
-    height: 65px;
-    width: 100%;
-    background-color: #F79F1F;
-    position: fixed;
-    top: 0;
-    z-index: 10;
-    
-  }
-   .header-logo {
-     font-size: 30px;
-     float:left;
-     padding: 20px 40px;
-     color: #1e272e;
-   }
-  .header-list{
-    float:left;
-   
-  }
 .food-wrapper {
     height: 500px;
     padding-bottom: 80px;
     background-color: #f7f7f7;
     text-align: center;
-}
-  .section-title {
-    border-bottom: 2px solid #dee7ec;
   }
   
   .heading {
@@ -93,14 +91,15 @@ li {
   
   .food {
     float: left;
-
+    width: 25%;
+    
+    
 
   }
   
   .food-icon {
     position: relative;
-    margin-right: 40px;
-
+    
   }
   
   .food-icon p {
@@ -110,8 +109,6 @@ li {
     width:100%;
     color: black;
     text-align: center;
-    font-size: 24px;
-    margin-top: 30px;
 
   }
   
@@ -120,7 +117,7 @@ li {
     display: inline-block;
     margin-top: 20px;
     font-size: 15px;
-    color: #0c2461;
+    color: #b3aeb5;
   }
   
   .heading h3 {
@@ -137,7 +134,7 @@ li {
     padding: 15px 40px;
     background-color: #5dca88;
     cursor: pointer;
-    box-shadow: 0 7px #68c98e;
+    box-shadow: 0 7px #1a7940;
   }
   
   .message:active {
